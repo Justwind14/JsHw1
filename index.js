@@ -3,14 +3,14 @@
 Формула перевода градусов Цельсия в градусы Фаренгейта: градусы Фаренгейта = (9 / 5) * градусы Цельсия + 32
 Вывести в консоль температуру в Цельсиях и Фаренгейтах. */
 
-let celsius = 15;
+let celsius = 140;
 
 const fahrenheit = function (x) {
     return (x*(9/5) + 32);
 }
-console.log('решение задачи №1:')
-console.log(celsius);
-console.log(fahrenheit(celsius));
+console.log('решение задачи №1:');
+console.log(`температура поверхности луны в цельсиях: ${celsius} градуса`);
+console.log(`температура поверхности луны в фаренгейтах: ${fahrenheit(celsius)} градуса`);
 
 
 /* Задание 2
@@ -18,4 +18,5 @@ console.log(fahrenheit(celsius));
 
 const NAME = 'Michael';
 let admin = NAME;
-console.log(admin);
+console.log('решение задачи №2:')
+console.log(`наш новый администратор - ${admin}`);
